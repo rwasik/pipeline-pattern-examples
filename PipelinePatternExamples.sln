@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PipelineWithoutErrorHandlingSteps", "PipelineWithoutErrorHandlingSteps\PipelineWithoutErrorHandlingSteps.csproj", "{724CF02A-54E2-42CA-9DB1-81BF60B795B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PipelineWithErrorHandlingSteps", "PipelineWithErrorHandlingSteps\PipelineWithErrorHandlingSteps.csproj", "{3A721576-8F5B-4F17-B40D-F3D6A8EBB445}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PipelineWithErrorHandlingSteps", "PipelineWithErrorHandlingSteps\PipelineWithErrorHandlingSteps.csproj", "{3A721576-8F5B-4F17-B40D-F3D6A8EBB445}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PipelineAzureFunctions", "PipelineAzureFunctions\PipelineAzureFunctions.csproj", "{725A42D8-0E31-442D-B739-143E32646F39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{3A721576-8F5B-4F17-B40D-F3D6A8EBB445}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A721576-8F5B-4F17-B40D-F3D6A8EBB445}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A721576-8F5B-4F17-B40D-F3D6A8EBB445}.Release|Any CPU.Build.0 = Release|Any CPU
+		{725A42D8-0E31-442D-B739-143E32646F39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{725A42D8-0E31-442D-B739-143E32646F39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{725A42D8-0E31-442D-B739-143E32646F39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{725A42D8-0E31-442D-B739-143E32646F39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
