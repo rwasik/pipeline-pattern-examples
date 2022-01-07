@@ -15,7 +15,7 @@ using PipelinePattern.Models;
 namespace PipelineAzureWebJob
 {
     public abstract class ServiceBusListenerBase<TPipeModel, TInQueueEnum> : IHostedService
-        where TPipeModel : IQueuePipeModel, IInQueuePipeModel, new()
+        where TPipeModel : IInQueuePipeModel, new()
         where TInQueueEnum : Enum 
     {
         private readonly IConfiguration _configuration;
