@@ -2,7 +2,7 @@
 
 namespace PipelineAzureWebJob.Pipeline.Models
 {
-    public class TranslateTextPipeModel : IQueuePipeModel, IInQueuePipeModel
+    public class TranslateTextPipeModel : IInQueuePipeModel
     {
         // pipe input
         public string QueueName { get; set; }

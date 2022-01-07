@@ -8,7 +8,7 @@ using PipelinePattern.Steps;
 
 namespace PipelineAzureWebJob.Pipeline.Steps
 {
-    public abstract class OutServiceBusPipeStep<TPipeModel, TOutQueueModel> : IOutQueuePipeStep<TPipeModel> where TPipeModel : IQueuePipeModel
+    public abstract class OutServiceBusPipeStep<TPipeModel, TOutQueueModel> : IOutQueuePipeStep<TPipeModel> where TPipeModel : IInQueuePipeModel
     {
         private readonly string _serviceBusConnectionString;
         private readonly ReceiveMode _receiveMode;
