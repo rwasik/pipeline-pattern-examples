@@ -2,7 +2,7 @@
 
 namespace PipelineAzureFunctions.Pipeline.Models
 {
-    public class TranslateTextPipeModel : IQueuePipeModel, IInQueuePipeModel, IOutQueuePipeModel
+    public class TranslateTextPipeModel : IInQueuePipeModel, IOutQueuePipeModel
     {
         // pipe input
         public string QueueName { get; set; }
